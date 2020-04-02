@@ -28,9 +28,9 @@ class FileStorage:
         if cls:
             larousse = {}
             for key, value in self.__objects.items():
-                if cls.__name__ in key:
-                    larousse.__setitem__(key, value)
-                    return larousse
+                if cls.__name__ is value.__class__.__name__:
+                   larousse.__setitem__(key, value)
+            return larousse
         return self.__objects
 
     def new(self, obj):
@@ -68,4 +68,4 @@ class FileStorage:
         key = obj.__class__.__name__ + '.' + obj.id
         if key in self.__objects:
             self.__objects.pop(key)
-            self.save()
+        self.save()
