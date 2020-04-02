@@ -1,5 +1,9 @@
 # HBNB
+<<<<<<< HEAD
 ## AirBnB v2 project forked by Yassin&Yassine
+=======
+## AirBnB v2 project forked by Yassine&Yassine
+>>>>>>> de9ad749f6f8ca051fa1b8d5d874caca051ee78b
 This is the console /command interpreter for the Holberton Airbnb clone project. The console can be used to store objects in and retrieve objects from a JSON.
 
 ### Supported classes:
