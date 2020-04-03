@@ -65,6 +65,8 @@ class FileStorage:
     def delete(self, obj=None):
         """deletes an object from __json if it's serialized
         """
+        if obj is None:
+            return
         key = obj.__class__.__name__ + '.' + obj.id
         if key in self.__objects:
             self.__objects.pop(key)
