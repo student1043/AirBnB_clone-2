@@ -1,6 +1,5 @@
 # HBNB
-<<<<<<< HEAD
-## AirBnB v2 project forked by Yassine&Yassine
+
 =======
 ## AirBnB v2 project forked by Yassine&Yassine
 >>>>>>> de9ad749f6f8ca051fa1b8d5d874caca051ee78b
