@@ -1,4 +1,4 @@
-#!/usr//bin/env bash
+#!/usr/bin/env bash
 # making the needed directories
 if [ ! -x /usr/sbin/nginx ]; then
         sudo apt-get -y update
