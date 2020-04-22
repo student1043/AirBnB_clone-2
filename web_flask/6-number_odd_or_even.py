@@ -42,11 +42,12 @@ def template(n=None):
 def evenodd(n=None):
     if n % 2 == 0:
         numtype = 'even'
-        return render_template('6-number_odd_or_even.html', n=n, numtype=numtype)
+        return render_template('6-number_odd_or_even.html', n=n,
+                               numtype=numtype)
     else:
         numtype = 'odd'
-        return render_template('6-number_odd_or_even.html', n=n, numtype=numtype)
-
+        return render_template('6-number_odd_or_even.html', n=n,
+                               numtype=numtype)
 
 
 if __name__ == '__main__':
